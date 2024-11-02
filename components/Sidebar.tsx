@@ -46,7 +46,7 @@ const DesktopSidebar = () => {
         <Logo />
       </div>
       <div className="p-2">TODO CREDITS</div>
-      <nav className="flex flex-col p-2">
+      <nav className="flex flex-col p-2 gap-1">
         {routes.map((route) => (
           <Link
             key={route.href}
